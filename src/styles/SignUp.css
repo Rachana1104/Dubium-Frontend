@@ -1,0 +1,40 @@
+.signup {
+  background: linear-gradient(
+    270deg,
+    #fd7014 -12.12%,
+    rgba(233, 27, 33, 0.74) 115.8%
+  ) !important;
+  border-radius: 8px;
+}
+
+.OR {
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4%;
+  width: 10%;
+  align-items: center;
+  margin-left: 80%;
+}
+
+.content {
+  padding-left: 12%;
+  padding-top: 80px;
+}
+
+h6 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  padding-top: 0;
+  letter-spacing: 0.0125em;
+  text-decoration-line: underline;
+  color: #acacac;
+}
+
+.login_img {
+  border: 0;
+  width: 85%;
+  height: 75%;
+  border-radius: 5%;
+  padding-left: 10%;
+}
