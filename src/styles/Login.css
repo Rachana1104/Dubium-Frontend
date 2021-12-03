@@ -1,0 +1,47 @@
+.login{
+    background: linear-gradient(270deg, #FD7014 -12.12%, rgba(233, 27, 33, 0.74) 115.8%) !important;
+    border-radius: 8px;
+}
+
+h6{
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+padding-top: 0;
+align-items: center;
+letter-spacing: 0.0125em;
+text-decoration-line: underline;
+color: #ACACAC;
+padding-left: 2%;
+}
+
+.or{
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4%;
+    width:10%;
+    align-items: center;
+    margin-left: 80%;
+}
+
+.login_img{
+    border: 0;
+    width: 85%;
+    height: 65%;
+    border-radius: 5%;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+.google{
+    padding-left: 50%;
+}
+
+.content{
+    padding-left: 12%;
+    padding-top: 80px;
+}
+
+.create{
+    text-decoration: none;
+}
