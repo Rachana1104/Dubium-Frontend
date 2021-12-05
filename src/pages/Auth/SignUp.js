@@ -17,7 +17,6 @@ const useStyles = makeStyles(theme => ({
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      padding: theme.spacing(2),
       background: 'black',
   
       '& .MuiTextField-root': {
@@ -26,9 +25,9 @@ const useStyles = makeStyles(theme => ({
         background:'white',
       },
       '& .MuiButtonBase-root': {
-        margin: theme.spacing(2),
+        margin: theme.spacing(1),
       },
-      '& h1':{
+      '& h2':{
           color:'white',
       },
     },
@@ -55,10 +54,10 @@ const SignUp = () => {
         <div className={classes.root}>
             <Grid container spacing={0}>
             <Grid item md={6} sm={12}>
-      <img src={login} alt="Login_template" className="login_img"/>;
+      <img src={login} alt="Login_template" className="login_image"/>;
       </Grid>
       <div className="content">
-            <h1>Create Your Account</h1>
+            <center><h2>Create Your Account</h2></center>
             <Grid item md={6} sm={12}>
             <form >
             <TextField
@@ -77,18 +76,18 @@ const SignUp = () => {
           required
           onChange={(e) => setPassword(e.target.value)}
           style={{ borderRadius:4}}
-          endAdornment={
-            <InputAdornment position="end">
-              <IconButton
-                aria-label="toggle password visibility"
-                onClick={handleClickShowPassword}
-                onMouseDown={handleMouseDownPassword}
-                edge="end"
-              >
-                {showPassword ? <VisibilityOff /> : <Visibility />}
-              </IconButton>
-            </InputAdornment>
-          }
+          // endAdornment={
+          //   <InputAdornment position="end">
+          //     <IconButton
+          //       aria-label="toggle password visibility"
+          //       onClick={handleClickShowPassword}
+          //       onMouseDown={handleMouseDownPassword}
+          //       edge="end"
+          //     >
+          //       {showPassword ? <VisibilityOff /> : <Visibility />}
+          //     </IconButton>
+          //   </InputAdornment>
+          // }
         /><br/>
         <TextField
           label="Re-enter"
@@ -99,9 +98,12 @@ const SignUp = () => {
           onChange={(e) => setRePassword(e.target.value)}
           style={{ borderRadius:4}}
           /><br/>
+          <Link to="/Username">
           <Button type="submit" variant="contained" className="signup" style={{ width:300}}>
           SignUp
-        </Button><br/>
+        </Button>
+        </Link>
+        <br/>
         <Link to="/" variant="body2">
         <h6>Already have an acccount? Sign in</h6>
         </Link>
