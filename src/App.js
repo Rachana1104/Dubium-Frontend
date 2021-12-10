@@ -1,7 +1,6 @@
 import './App.css';
 import Login from './pages/Auth/Login';
 import SignUp from './pages/Auth/SignUp';
-import Verification from './pages/Auth/Verify';
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,8 +13,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/"><Login/></Route>
-          <Route exact path="/SignUp"><SignUp/></Route>
-          <Route exact path="/verify/token=:tok"><Verification/></Route>
+          <Route path="/SignUp"><SignUp/></Route>
       </Switch>
       </Router>
     </div>
