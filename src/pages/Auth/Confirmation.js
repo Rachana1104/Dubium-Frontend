@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/Login.css";
-import login from "../../assets/login_template.png";
+import login from "../../assets/login_template.jpeg";
 import { makeStyles } from "@material-ui/core";
 import { Grid } from "@mui/material";
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';

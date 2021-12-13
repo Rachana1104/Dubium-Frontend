@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../../styles/SignUp.css';
-import login from '../../assets/login_template.png';
+import login from '../../assets/login_template.jpeg';
 import { makeStyles } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
